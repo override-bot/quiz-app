@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Result</title>
+    <style>
+        .submit {
+            border-radius: 20px;
+            background-color: rgb(53, 41, 228);
+            COLOR: white !important;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="modal.css">
+</head>
+
+<body>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto; float:right;">Add Music</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close form">&times;</span>
+                <br/>
+            </div>
+
+            <div class="container">
+                <input type="text" placeholder="NAME OF ARTIST" id="newArtist" /><br/>
+                <input type="text" placeholder="NAME OF SONG" id="newSongName" /><br/>
+                <input type="text" placeholder="LINK TO SONG" id="newSong" /><br/>
+                <br/>
+
+                <input type="button" class="submit" value="ADD" onclick="addSong()" />
+                <label>
+   
+  </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
