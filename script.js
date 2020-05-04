@@ -22,7 +22,7 @@
           </label>`
                     );
                 }
-
+ 
 
                 output.push(
                     `<div class="slide">
@@ -62,7 +62,7 @@
                 answerContainers[questionNumber].style.color = 'lightgreen';
             } else {
 
-                answerContainers[questionNumber].style.color = 'red';
+                answerContainers[questionNumber].style.color = 'blue';
             }
         });
 
@@ -130,7 +130,7 @@
                 C: "Brazil",
                 D: "Nigeria"
             },
-            correctAnswer: "C"
+            correctAnswer: "d"
         },
         {
             question: "The record number of World Cup goals is 16, scored by who?",
@@ -180,7 +180,7 @@
                 C: "Cristiano Ronaldo",
                 D: "Neymar"
             },
-            correctAnswer: "C"
+            correctAnswer: "D"
         },
         {
             question: "Which Former Tottenham manager has competed in Dakar Rally",
